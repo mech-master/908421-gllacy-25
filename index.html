@@ -1,12 +1,169 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Глейси</title>
-  </head>
-  <body>
+	<head>
+		<meta charset="utf-8">
+		<title>HTML Academy: Глейси</title>
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS, уровень 1</a>».</p>
+		<div class="page-container slide-1">
 
-  </body>
+			<div class="aligment-wrapper">
+	
+				<header class="page-header header-index">
+					<div class="header-row">
+						<img src="img/logo.svg" alt="Логотип магазина Gllacy" class="header-logotype" width="154" height="64">
+						<nav class="page-navigation">
+							<ul class="page-navigation-list">
+								<li class="page-navigation-item"><a href="#" class="page-navigation-button navigation-catalog">Каталог</a></li>
+								<li class="page-navigation-item"><a href="#" class="page-navigation-button navigation-delivery">Доставка и оплата</a></li>
+								<li class="page-navigation-item"><a href="#" class="page-navigation-button navigation-about-company">О Компании</a></li>
+							</ul>
+						</nav>
+						<div class="header-toolbar">
+							<ul class="toolbar-list">
+								<li class="toolbar-item"><a href="" class="toolbar-button toolbar-searching">Поиск по сайту</a></li>
+								<li class="toolbar-item"><a href="" class="toolbar-button toolbar-sign-in">Вход</a></li>
+								<li class="toolbar-item"><a href="" class="toolbar-button toolbar-cart" data-cart-count="0">Пусто</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="header-row header-contact">
+						<p class="working-time">С 10 до 20, ежедневно</p>
+						<a href="tel:+78124502525" class="header-contact-phone">8 812 450-25-25</a>
+					</div>
+				</header>
+
+			</div>
+
+			<main class="page-container main-index">
+				<h1 class="visually-hidden">Магазин для сладкоежек</h1>
+
+				<div class="aligment-wrapper">
+
+					<section class="page-slider-section">
+						<h2 class="visually-hidden">Слайдер самого вкусного</h2>
+						<ul class="page-slider-control">
+							<li class="page-slider-item active"><button class="page-slider-button">Слайд крембрюле и пломбира</button></li>
+							<li class="page-slider-item"><button class="page-slider-button">Слайд шоколадный пломбир и лимонный сорбет</button></li>
+							<li class="page-slider-item"><button class="page-slider-button">Слайд пломбир с помадкой и клубничный щербет</button></li>
+						</ul>				
+						<div class="page-slider-container">
+							<div class="page-slider-1 active">
+								<h3 class="page-slide-title">Крем-брюле и пломбир с малиновым джемом</h3>
+								<a href="#" class="button add-cart">Давайте оба!</a>
+							</div>
+							<div class="page-slider-2">
+								<h3 class="page-slide-title">Шоколадный пломбир и лимонный сорбет</h3>
+								<a href="#" class="button add-cart">Давайте оба!</a>
+							</div>	
+							<div class="page-slider-3">
+								<h3 class="page-slide-title">Пломбир с помадкой и клубничный щербет</h3>
+								<a href="#" class="button add-cart">Давайте оба!</a>
+							</div>
+						</div>
+					</section>
+		
+					<section class="promo-container">
+						<h2 class="visually-hidden">Рекламные акции магазина</h2>
+						<div class="promo-1">
+							<h3 class="promo-title">Малинка даром!</h3>
+							<p class="promo-text">При покупке 2 кг любого фруктового мороженого, добавим в ваш заказ банку малинового варенья бесплатно.</p>
+							<a class="button promo-button">Хочу варенье!</a>
+						</div>
+						<div class="promo-2">
+							<h3 class="promo-title">Шоколадки даром!</h3>
+							<p class="promo-text">При покупке 2 кг пломбира, добавим в ваш заказ упаковку вкуснейшей шоколадной присыпки совершенно бесплатно.</p>
+							<a class="button promo-button">Хочу шоколадки!</a>
+						</div>
+					</section>
+
+					<section class="hits-container">
+						<h2 class="visually-hidden">Хиты продаж</h2>
+						<ul class="hit-list">
+							<li class="hit-item hit">
+								<img src="#" alt="Фото сливочного мороженого с апельсиновым джемом и цитрусовой стружкой" class="hit-image">
+								<p class="hit-price">310 <span class="sign-rubl">Р</span>/кг</p>
+								<a href="#" class="hit-description">Сливочное с апельсиновым джемом и цитрусовой стружкой</a>
+							</li>
+							<li class="hit-item hit">
+								<img src="#" alt="Фото сливочно-кофейного мороженого с кусочками шоколада" class="hit-image">
+								<p class="hit-price">380 <span class="sign-rubl">Р</span>/кг</p>
+								<a href="#" class="hit-description">Сливочно-кофейное с кусочками шоколада</a>
+							</li>
+							<li class="hit-item hit">
+								<img src="#" alt="Фото сливочно-клубничного мороженого с присыпкой из белого шоколада" class="hit-image">
+								<p class="hit-price">355 <span class="sign-rubl">Р</span>/кг</p>
+								<a href="#" class="hit-description">Сливочно-клубничное с присыпкой из белого шоколада</a>
+							</li>
+							<li class="hit-item hit">
+								<img src="#" alt="Фото сливочного мороженого крем-брюле с карамельной подливкой" class="hit-image">
+								<p class="hit-price">415 <span class="sign-rubl">Р</span>/кг</p>
+								<a href="#" class="hit-description">Сливочное крем-брюле с карамельной подливкой</a>
+							</li>
+						</ul>
+					</section>
+
+					<section class="products-info-container">
+						<h2 class="product-info-title">Магазин Глэйси — это онлайн- и офлайн-магазин по продаже мороженого собственного производства на развес</h2>
+						<ul class="product-info-list">
+							<li class="product-info-item">
+								<p class="product-info-description">
+									Все наше мороженое изготавливается на собственном производстве, с использованием современного оборудования и проверенных временем технологий.
+								</p>
+							</li>
+							<li class="product-info-item">
+								<p class="product-info-description">
+									Закупка ингредиентов  производится только у проверенных фермерских хозяйств и компаний, с которыми нас связывает долговременное сотрудничество.
+								</p>
+							</li>
+							<li class="product-info-item">
+								<p class="product-info-description">
+									Для приготовления мороженого используются настоящие сливки и молоко высочайшего качества. Все дополнительные ингредиенты и добавки произведены из натурального, экологически чистого сырья.
+								</p>
+							</li>
+							<li class="product-info-item">
+								<p class="product-info-description">
+									Доставка нашего мороженого до заказчиков осуществляется в специальном термопаке, который не дает мороженому растаять в пути и позволяет сохранить превосходный вкус.
+								</p>
+							</li>
+						</ul>
+
+					</section>
+
+					<section class="news-container">
+						<h2 class="visually-hidden">Новости нашего магазина</h2>
+						<div class="blog-news">
+							<h3 class="blog-news-title">Новое в нашем блоге</h3>
+							<a href="#" class="blog-news-link">10 способов сервировки фруктовых щербетов к столу</a>
+						</div>
+						<div class="news-subscription">
+							<p class="subscription-title">Подпишитесь на нашу сладкую рассылку и будете всегда в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой ненужной ерунды. Честно =)</p>
+							<form method="post" action="https://echo.htmlacademy.ru">
+								<label class="visually-hidden" for="subscription-email-input">Введите адрес электронной почты</label>
+								<input type="email" name="subscription-email" id="subscription-email-input" class="subscription-email" placeholder="Электронная почта">
+								<button type="submit" class="button subscription-button">Отправить</button>
+							</form>
+						</div>
+					</section>
+
+				</div>
+
+					<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A5a70cd3a011f19283bfd182952ba0b7fabce07f3211fe9fe95f384b6487aaf95&amp;source=constructor" class="interactive-map"></iframe>
+					<a class="contact-map">
+						
+					</a>
+
+				
+			</main>
+
+			<footer class="page-footer footer-index">
+				
+			</footer>
+
+		</div>
+
+	</body>
 </html>

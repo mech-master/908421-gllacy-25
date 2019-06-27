@@ -1,0 +1,87 @@
+/***** begin block [fonts] for {index.html and catalog.html} *****/
+
+	@font-face {
+		font-family: "Roboto";
+		src: 	url("../fonts/roboto.woff2") format("woff2"),
+					url("../fonts/roboto.woff") format("woff");
+		font-weight: normal;
+		font-style: normal;
+	}
+
+	@font-face {
+		font-family: "Roboto";
+		src: 	url("../fonts/robotobold.woff2") format("woff2"),
+					url("../fonts/robotobold.woff") format("woff");
+		font-weight: bold;
+		font-style: normal;
+	}
+
+	@font-face {
+		font-family: "Roboto";
+		src: 	url("../fonts/robotomedium.woff2") format("woff2"),
+					url("../fonts/robotomedium.woff") format("woff");
+		font-weight: 500;
+		font-style: normal;
+	}
+
+/***** end block [fonts] for {index.html and catalog.html} *****/
+
+/***** begin block [body] for {index.html} *****/
+
+	body {
+		position: relative;
+
+		padding: 0;
+		margin: 0;
+		width: auto;
+		height: 100%;
+
+
+	}
+
+	/***** begin block [.page-container] for {index.html} *****/
+
+		.page-container {
+			width: 100%;
+		}
+
+		.page-container.slide-1 {
+
+			background: #849d8f;
+		}
+
+		.aligment-wrapper {
+			width: 1146px;
+			margin-top: 0;
+			margin-right: auto;
+			margin-bottom: 0;
+			margin-left: auto;
+
+			padding-top: 0;
+			padding-right: 27px;
+			padding-bottom: 0;
+			padding-left: 27px;
+		}
+
+		.page-slader-control {
+			margin: 0;
+			padding: 0;
+
+			list-style: none;
+		}
+
+		.hit-price {
+			font-family: "Roboto", Arial, Helvetica, sans-serif;
+			font-weight: bold;
+		}
+
+		.interactive-map {
+			width: 100%;
+			min-width: 1200px;
+			height: 430px;
+			border: none;
+		}
+
+	/***** end block [page-container] for {index.html} *****/
+
+/***** end block [body] for {index.html} *****/
