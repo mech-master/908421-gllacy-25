@@ -2,15 +2,17 @@
 <html lang="ru">
 	<head>
 		<meta charset="utf-8">
+		<!--  <meta http-equiv="refresh" content="60">  -->
 		<title>HTML Academy: Глейси</title>
 		<link rel="stylesheet" type="text/css" href="css/normalize.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="../_wrapper.css">
 	</head>
 	<body>
 
 		<div class="page-container slide-1">
 
-			<div class="aligment-wrapper">
+			<div class="aligment-wrapper slide-1">
 	
 				<header class="page-header header-index">
 					<div class="header-row">
@@ -19,7 +21,7 @@
 							<ul class="page-navigation-list">
 								<li class="page-navigation-item">
 									<a href="#" class="page-navigation-button navigation-catalog">Каталог</a>
-									<div class="dropdown-main-menu">
+									<div class="dropdown-part dropdown-main-menu">
 										<h2 class="dropdown-menu-title">Новинки</h2>
 										<ul class="dropdown-menu-list">
 											<li class="dropdown-menu-item">
@@ -45,7 +47,7 @@
 							<ul class="toolbar-list">
 								<li class="toolbar-item">
 									<a href="#" class="toolbar-button toolbar-searching">Поиск по сайту</a>
-									<div class="dropdown-searching-wrapper">
+									<div class="dropdown-part dropdown-searching-wrapper">
 										<form method="get" action="https://echo.htmlacademy.ru" class="searching-form">
 											<label for="searching-string-input" class="visually-hidden">Поисковая строка</label>
 											<input type="text" name="searching-string" id="searching-string-input" placeholder="Что ищем?">
@@ -55,7 +57,7 @@
 								</li>
 								<li class="toolbar-item">
 									<a href="#" class="toolbar-button toolbar-sign-in">Вход</a>
-									<div class="dropdown-sign-control">
+									<div class="dropdown-part dropdown-sign-control">
 										<form method="post" action="https://echo.htmlacademy.ru" class="sign-in-form">
 											<label for="sign-in-email-input" class="visually-hidden">Введите адрес электронной почты</label>
 											<input type="text" name="sign-in-email" id="sign-in-email-input" class="sign-in-login" placeholder="Электронная почта">
@@ -71,11 +73,13 @@
 										</form>
 									</div>
 								</li>
-								<li class="toolbar-item"><a href="#" class="toolbar-button toolbar-cart" data-cart-count="0">Пусто</a></li>
+								<li class="toolbar-item">
+									<a href="#" class="toolbar-button toolbar-cart" data-cart-count="0">Пусто</a>
+								</li>
 							</ul>
 						</div>
 					</div>
-					<div class="header-row header-contact">
+					<div class="header-contact">
 						<p class="working-time">С 10 до 20, ежедневно</p>
 						<a href="tel:+78124502525" class="header-contact-phone">8 812 450-25-25</a>
 					</div>
@@ -203,6 +207,14 @@
 						<a href="https://yandex.ru/maps/2/saint-petersburg/?ll=30.321553%2C59.938523&mode=search&sll=37.622504%2C55.753215&sspn=1.972046%2C0.594804&text=%D1%83%D0%BB.%20%D0%91%D0%BE%D0%BB%D1%8C%D1%88%D0%B0%D1%8F%20%D0%9A%D0%BE%D0%BD%D1%8E%D1%88%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F%2019%2F8%2C%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3&z=17" class="static-map" target="_blank">
 							<img src="img/static-map.png" class="static-map-image" width="1200" height="430"	>
 						</a>
+						<div class="contacts-wrapper">
+							<p class="address-title">Адрес главного офиса и офлайн-магазина:</p>
+							<a href="https://yandex.ru/maps/2/saint-petersburg/?ll=30.321553%2C59.938523&mode=search&sll=37.622504%2C55.753215&sspn=1.972046%2C0.594804&text=%D1%83%D0%BB.%20%D0%91%D0%BE%D0%BB%D1%8C%D1%88%D0%B0%D1%8F%20%D0%9A%D0%BE%D0%BD%D1%8E%D1%88%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F%2019%2F8%2C%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3&z=17" target="_blank" class="address-link">ул. Большая Конюшенная 19/8, Санкт-Петербург</a>
+							<p class="contacts-phone-title">Для заказов по телефону:</p>
+							<a href="tel:+78124502525" class="contacts-phone">8 812 450-25-25</a>
+							<p class="contacts-working-time">(с 10 до 20 ежедневно)</p>
+							<a href="#" class="button contacts-callback">Форма обратной связи</a>
+						</div>
 					</div>
 				</section>
 

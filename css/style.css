@@ -39,7 +39,7 @@
 
 	}
 
-	/***** begin block [.page-container] for {index.html} *****/
+	/***** begin block [.page-header.header-index] for {index.html} *****/
 
 		.page-container {
 			width: 100%;
@@ -48,6 +48,12 @@
 		.page-container.slide-1 {
 
 			background: #849d8f;
+			background-image: 	url("../img/bg-page-slide-1.png"),
+								url("../img/bg-lighting-slide-1.png");
+			background-position: center 83px, top center;
+			background-repeat: no-repeat, no-repeat;
+			background-size: 647px 584px, 1045px 881px;
+
 		}
 
 		.aligment-wrapper {
@@ -62,6 +68,180 @@
 			padding-bottom: 0;
 			padding-left: 27px;
 		}
+
+		/***** begin block [.page-header] for {index.html} *****/
+
+			.page-header.header-index {
+				position: relative;
+
+				width: 100%;
+				padding-top: 9px;
+				padding-right: 0;
+				padding-bottom: 0;
+				padding-left: 0;
+			}
+
+			.header-row {
+				width: 100%;
+				display: flex;
+				flex-direction: row;
+
+			}
+
+			.dropdown-part {
+				display: none;
+			}
+
+			.page-navigation {
+				margin-top: 0;
+				margin-right: 0;
+				margin-bottom: 0;
+				margin-left: 24px;
+				padding-top: 20px;
+				padding-right: 0;
+				padding-bottom: 0;
+				padding-left: 0;
+			}
+
+			.page-navigation-list {
+				display: flex;
+				flex-direction: row;
+
+				margin: 0;
+				padding: 0;
+
+				list-style: none;
+			}
+
+			.page-navigation-item {
+				margin-top: 0;
+				margin-right: 27px;
+				margin-bottom: 0;
+				margin-left: 0; 
+			}
+
+			.page-navigation-item:last-child {
+				margin-right: 0;
+				margin-left: 2px;
+			}
+
+			.page-navigation-button {
+				font-family: "Roboto", Arial, Helvetica, sans-serif;
+				font-weight: bold;
+				font-size: 16px;
+				line-height: 1.13;
+				color: #ffffff;
+				text-decoration: none;
+
+				border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+			}
+
+			.header-toolbar {
+				margin-top: 0;
+				margin-right: 0;
+				margin-bottom: 0;
+				margin-left: auto;
+			}
+
+			.toolbar-list {
+				display: flex;
+				flex-direction: row;
+
+				margin: 0;
+				padding-top: 14px;
+				padding-right: 0;
+				padding-bottom: 0;
+				padding-left: 0;
+
+
+				list-style: none;
+			}
+
+			.toolbar-item {
+				margin-top: 0;
+				margin-right: 10px;
+				margin-bottom: 0;
+				margin-left: 0;
+
+				padding-top: 7px;
+				padding-right: 16px;
+				padding-bottom: 7px;
+				padding-left: 16px;
+
+				background-color: rgba(254, 254, 254, 0.2);
+				border-radius: 16px;
+			}
+
+			.toolbar-item:last-child {
+				margin-right: 0;
+			}
+
+			.toolbar-button {
+				margin: 0;
+				padding: 0;
+
+				font-family: "Roboto", Arial, Helvetica, sans-serif;
+				font-weight: 500;
+				font-size: 14px;
+				line-height: 1.14;
+				color: #ffffff;
+				text-decoration: none;
+			}
+
+			.toolbar-searching {
+				width: 32px;
+				height: 32px;
+				font-size: 0;
+			}
+
+			.toolbar-sign-in {
+				padding-left: 28px;
+			}
+
+			.toolbar-cart {
+				padding-left: 29px;
+			}
+
+			.header-contact {
+				position: absolute;
+				bottom: -42px;
+				right: 0;
+				display: flex;
+				flex-direction: column;
+				align-items: flex-end;
+			}
+
+			.header-contact .working-time {
+				margin-top: 0;
+				margin-right: 0;
+				margin-bottom: 5px;
+				margin-left: 0;
+				padding: 0;
+
+				font-family: "Roboto", Arial, Helvetica, sans-serif;
+				font-weight: bold;
+				font-size: 14px;
+				line-height: 1.14;
+				color: #ffffff;
+
+			}
+
+			.header-contact .header-contact-phone {
+				font-family: "Roboto", Arial, Helvetica, sans-serif;
+				font-weight: bold;
+				font-size: 22px;
+				line-height: 1.09;
+				color: #ffffff;
+				text-decoration: none;
+				letter-spacing: -0.05px;
+			}
+			
+
+		/***** begin block [.page-header] for {index.html} *****/		
+
+	/***** end block [.page-header.header-index] for {index.html} *****/
+
+/***** end block [body] for {index.html} *****/
 
 		.page-slader-control {
 			margin: 0;
@@ -81,7 +261,3 @@
 			height: 430px;
 			border: none;
 		}
-
-	/***** end block [page-container] for {index.html} *****/
-
-/***** end block [body] for {index.html} *****/
