@@ -45,18 +45,27 @@
 						</nav>
 						<div class="header-toolbar">
 							<ul class="toolbar-list">
-								<li class="toolbar-item">
-									<a href="#" class="toolbar-button toolbar-searching">Поиск по сайту</a>
+								<li class="toolbar-item toolbar-searching">
+									<a href="#" class="toolbar-button toolbar-searching-button">
+										<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="17px" height="17px" viewBox="0 0 17 17" enable-background="new 0 0 17 17" xml:space="preserve">
+											<g>
+												<path class="icon-searching-image" d="M16.958,15.527L11.75,10.32C12.533,9.247,13,7.93,13,6.5C13,2.91,10.09,0,6.5,0S0,2.91,0,6.5	S2.91,13,6.5,13c1.438,0,2.763-0.473,3.839-1.263l5.205,5.204L16.958,15.527z M6.5,11C4.019,11,2,8.981,2,6.5S4.019,2,6.5,2 S11,4.019,11,6.5S8.981,11,6.5,11z"/>
+											</g>
+										</svg>
+										Поиск по сайту
+									</a>
 									<div class="dropdown-part dropdown-searching-wrapper">
 										<form method="get" action="https://echo.htmlacademy.ru" class="searching-form">
 											<label for="searching-string-input" class="visually-hidden">Поисковая строка</label>
-											<input type="text" name="searching-string" id="searching-string-input" placeholder="Что ищем?">
-											<button type="submit" class="visually-hidden">Отпарвить</button>
+											<input type="text" name="searching-string" id="searching-string-input" class="searching-string-input" placeholder="Что ищем?">
+											<button type="submit" class="visually-hidden">Отправить</button>
 										</form>
 									</div>
 								</li>
-								<li class="toolbar-item">
-									<a href="#" class="toolbar-button toolbar-sign-in">Вход</a>
+								<li class="toolbar-item toolbar-sign-in">
+									<a href="#" class="toolbar-button toolbar-sign-in-button">
+										Вход
+									</a>
 									<div class="dropdown-part dropdown-sign-control">
 										<form method="post" action="https://echo.htmlacademy.ru" class="sign-in-form">
 											<label for="sign-in-email-input" class="visually-hidden">Введите адрес электронной почты</label>
@@ -74,7 +83,7 @@
 									</div>
 								</li>
 								<li class="toolbar-item">
-									<a href="#" class="toolbar-button toolbar-cart" data-cart-count="0">Пусто</a>
+									<a href="#" class="toolbar-button toolbar-cart-button" data-cart-count="0">Пусто</a>
 								</li>
 							</ul>
 						</div>
