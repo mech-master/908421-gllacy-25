@@ -127,6 +127,10 @@
 				position: relative;
 
 				width: 100%;
+				margin-top: 0;
+				margin-right: 0;
+				margin-bottom: 25px;
+				margin-left: 0;
 				padding-top: 9px;
 				padding-right: 0;
 				padding-bottom: 0;
@@ -730,9 +734,9 @@
 		}
 
 		.page-slider-control {
-			position: relative;
+			position: absolute;
 			left: 0;
-			top: 486px;
+			top: 461px;
 			display: flex;
 			flex-direction: row;
 			z-index: 10;
@@ -856,6 +860,11 @@
 			display: flex;
 			flex-direction: row;
 			justify-content: space-between;
+
+			margin-top: 0;
+			margin-right: 0;
+			margin-bottom: 40px;
+			margin-left: 0;
 		}
 
 		.promo-card {
@@ -958,15 +967,420 @@
 
 	/***** end block [.promo-container] for {index.html} *****/	
 
+	/***** begin block [.hits] for {index.html} *****/	
+
+		.hits-container {
+			width: 100%;
+			padding-top: 0;
+			padding-right: 0;
+			padding-bottom: 38px;
+			padding-left: 0;
+		}
+
+		.hit-list {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			margin: 0;
+			padding: 0;
+
+			list-style: none;
+		}
+
+		.hit-item {
+			position: relative;
+
+			width: 23.29843%;
+		}
+
+		.hit-description {
+			display: flex;
+			flex-direction: column;
+
+			width: 100%;
+
+			text-decoration-color: #ffffff;
+		}
+
+		.hit-image {
+			order: 1;
+			display: block;
+
+			width: 266px;
+			height: 266px;
+			margin-top: 0;
+			margin-right: 0;
+			margin-bottom: 14px;
+			margin-left: 0;
+
+			border-radius: 50%;
+			text-shadow: 0.5px 0.9px 3px rgba(49, 50, 53, 0.5);		}
+
+		.hit-title {
+			order: 2;
+
+			margin: 0;
+			padding: 0;
+
+			font-family: "Roboto", Arial, Helvetica, sans-serif;
+			font-weight: 500;
+			font-size: 16px;
+			line-height: 1.38;
+			color: #ffffff;
+			text-align: center;
+		}
+
+		.hit-price {
+			position: absolute;
+			top: 162px;
+			left: 0;
+
+			font-family: "Roboto", Arial, Helvetica, sans-serif;
+			font-weight: bold;
+			font-size: 45px;
+			line-height: 1;
+			color: #ffffff;
+
+			text-shadow: 0.5px 0.9px 3px rgba(49, 50, 53, 0.5);
+		}
+
+		.sign-ruble {
+			font-family: "Roboto", Arial, Helvetica, sans-serif;
+			font-weight: bold;
+			font-size: 45px;
+			line-height: 1;
+			color: #ffffff;
+		}
+
+		.hit-separator {
+			font-size: 17px;
+		}
+
+		.hit-unit {
+			font-family: "Roboto", Arial, Helvetica, sans-serif;
+			font-weight: bold;
+			font-size: 30px;
+			line-height: 1.5;
+			color: #ffffff;
+		}
+
+		.hit-item.hit::before {
+			position: absolute;
+			top: 0;
+			left: 0;
+			display: block;
+
+			width: 61px;
+			height: 61px;
+
+			background-image: url("../img/icon-hit.svg");
+			background-color: #ffffff;
+			border-radius: 50%;
+			background-repeat: no-repeat;
+			background-position: 0 0;
+			background-size: 61px 61px;
+
+			content: "";
+		}
+
+	/***** end block [.hits] for {index.html} *****/	
+
+	/***** begin block [.advantages-container] for {index.html} *****/
+
+		.advantages-container {
+			margin-top: 0;
+			margin-right: 0;
+			margin-bottom: 40px;
+			margin-left: 0;
+
+			padding-top: 25px;
+			padding-right: 20px;
+			padding-bottom: 23px;
+			padding-left: 20px;
+
+			background-color: #eee1c7;
+			background-image: url("../img/bg-advantages.jpg");
+			background-position: 5px 0;
+			background-repeat: repeat;
+			border-radius: 15px;
+		}
+
+		.advantage-title {
+			margin: 0;
+			padding: 0;
+
+			font-family: "Roboto", Arial, Helvetica, sans-serif;
+			font-weight: 500;
+			font-size: 24px;
+			line-height: 1.25;
+			color: #323232;
+			letter-spacing: 0.2px;
+		}
+
+		.advantage-list {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			align-content: flex-start;
+
+			width: 100%;
+			margin: 0;
+			padding: 0;
+
+			list-style: none;
+		}
+
+		.advantage-item {
+			width: 48.9%;
+			margin-top: 8px;
+			margin-right: 0;
+			margin-bottom: 0;
+			margin-left: 0;
+
+			padding-top: 0;
+			padding-right: 0;
+			padding-bottom: 0;
+			padding-left: 0;
+		}
+
+		.advantage-description {
+			margin-top: 0;
+			margin-right: 0;
+			margin-bottom: 1px;
+			margin-left: 0;
+
+			padding-top: 13px;
+			padding-right: 0;
+			padding-bottom: 0;
+			padding-left: 58px;
+
+			font-family: "Roboto", Arial, Helvetica, sans-serif;
+			font-weight: normal;
+			font-size: 16px;
+			line-height: 1.38;
+			color: #323232;
+		}
+
+		.advantage-item:nth-of-type(1) {
+			background-image: url("../img/icon-advantage-1.svg");
+			background-position: 0 0;
+			background-repeat: no-repeat;
+			background-size: 49px 49px;
+		}
+
+		.advantage-item:nth-of-type(2) {
+			background-image: url("../img/icon-advantage-2.svg");
+			background-position: 0 0;
+			background-repeat: no-repeat;
+			background-size: 49px 49px;
+		}
+
+		.advantage-item:nth-of-type(3) {
+			background-image: url("../img/icon-advantage-3.svg");
+			background-position: 0 0;
+			background-repeat: no-repeat;
+			background-size: 49px 49px;
+		}
+
+		.advantage-item:nth-of-type(4) {
+			background-image: url("../img/icon-advantage-4.svg");
+			background-position: 0 0;
+			background-repeat: no-repeat;
+			background-size: 49px 49px;
+		}
+
+	/***** end block [.advantages-container] for {index.html} *****/
+	
+	/***** begin block [.news-container] for {index.html} *****/
+
+		.news-container {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+
+			padding-top: 0;
+			padding-right: 0;
+			padding-bottom: 39px;
+			padding-left: 0;
+		}
+
+		.news-block {
+			width: 48.86562%;
+			box-sizing: border-box;
+
+			border-radius: 15px/15px;
+		}
+
+		.blog-news {
+			padding-top: 23px;
+			padding-right: 20px;
+			padding-bottom: 81px;
+			padding-left: 20px;
+
+			background-color: #ffffff;
+			background-image: url("../img/bg-news-special-recipes.jpg");
+			background-position: top right;
+			background-repeat: no-repeat;
+		}
+
+		.blog-news-title {
+			margin-top: 0;
+			margin-right: 0;
+			margin-bottom: 3px;
+			margin-left: 0;
+
+			padding: 0;
+
+
+			font-family: "Roboto", Arial, Helvetica, sans-serif;
+			font-weight: 500;
+			font-size: 16px;
+			line-height: 1.38;
+			color: #323232;
+		}
+
+		.blog-news-link {
+			display: block;
+
+			padding-top: 0;
+			padding-right: 240px;
+			padding-bottom: 0;
+			padding-left: 0;
+
+			font-family: "Roboto", Arial, Helvetica, sans-serif;
+			font-weight: bold;
+			font-size: 24px;
+			line-height: 1.25;
+			color: #323232;
+		}
+
+		.post-background {
+			padding-top: 5px;
+			padding-right: 5px;
+			padding-bottom: 5px;
+			padding-left: 5px;
+
+			background-color: #f2dbd3;
+			border-radius: 15px/15px;
+			background-image: url("../img/bg-post.jpg");
+			background-repeat: repeat;
+			background-position: 0 0;
+		}
+
+		.news-subscription {
+			padding-top: 28.5px;
+			padding-right: 21px;
+			padding-bottom: 35px;
+			padding-left: 21px;
+
+			background-color: #f2dbd3;
+			border-radius: 10px/10px;
+			background-image: url("../img/bg-subscription.jpg");
+			background-repeat: repeat;
+			background-position: 0 0;
+		}
+
+		.subscription-title {
+			margin-top: 0;
+			margin-right: 0;
+			margin-bottom: 36px;
+			margin-left: 0;
+
+			padding: 0;
+
+			font-family: "Roboto", Arial, Helvetica, sans-serif;
+			font-weight: normal;
+			font-size: 16px;
+			line-height: 1.38;
+			color: #5a5a5a;
+			letter-spacing: 0.045px;
+		}
+
+		.subscription-form {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+		}
+
+		.subscription-email {
+			display: block;
+
+			width: 72.55%;
+			padding-top: 9px;
+			padding-right: 14px;
+			padding-bottom: 9px;
+			padding-left: 14px;
+			box-sizing: border-box;
+
+			font-family: "Roboto", Arial, Helvetica, sans-serif;
+			font-weight: normal;
+			font-size: 16px;
+			line-height: 1.5;
+			color: #999999;
+
+			border: 1px solid #d3d3d2;
+			background-color: #ffffff;
+			border-radius: 5px;
+		}
+
+		.subscription-button {
+
+			padding-top: 8px;
+			padding-right: 18px;
+			padding-bottom: 10px;
+			padding-left: 18px;
+
+			font-family: "Roboto", Arial, Helvetica, sans-serif;
+			font-weight: bold;
+			font-size: 18px;
+			line-height: 1.33;
+			color: #fefefe;
+
+			border-radius: 22px/50%;
+		}
+
+	/***** end block [.news-container] for {index.html} *****/
+
+	/***** begin block [.map-control] for {index.html} *****/
+
+		.aligment-map {
+			width: 1200px;
+			padding-right: 0;
+			padding-left: 0;
+		}
+
+		.static-map {
+			position: relative;
+		}
+
+		.static-map::before {
+			display: block;
+			position: absolute;
+			top: 0;
+			left: 100px;
+
+			width: 218px;
+			height: 142px;
+
+			background-color: transparent;
+			background-image: url("../img/icon-map-pointer.png");
+			background-size: 218px 142px;
+			background-repeat: no-repeat;
+			background-position: 0 0;
+
+			content: "";
+		}
+
+		.aligment-map-image {
+			display: block;
+		}
+
+	/***** end block [.map-control] for {index.html} *****/
+
 /***** end block [body] for {index.html} *****/
 
 		
-
-		.hit-price {
-			font-family: "Roboto", Arial, Helvetica, sans-serif;
-			font-weight: bold;
-		}
-
 		.interactive-map {
 			width: 100%;
 			min-width: 1200px;
